@@ -1,0 +1,50 @@
+.ui.container {
+    font-family: 'Fira Sans';
+    width: 30rem;
+    height: auto;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px 45px;
+    border-radius: 15px;
+}
+
+#registration-title {
+    margin-bottom: 2rem;
+}
+
+.ui.container-2 {
+    font-family: 'Fira Sans';
+    width: 53rem;
+    height: auto;
+    margin: auto;
+    background: #ffffff;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px 45px;
+    border-radius: 15px;
+}
+
+.form.wrapper {
+    background-image: url("../../images/pexels-engin-akyurt.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+@media (max-width: 767px) {
+    .ui.container-2 {     
+        width: 30rem;   
+    }
+}
+
+#terms:hover {
+    color: blue;
+}
+
+.error {
+    color: red;
+    font-size: 1em;
+}

@@ -1,0 +1,20 @@
+.content.wrapper {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.content.block {
+    background-color: white;
+    margin-top: 9rem;
+    margin-left: 18rem;  
+}
+
+@media(max-width: 1279.98px) {
+    .content.block {
+        margin: 9rem auto;
+    }
+}

@@ -1,0 +1,1 @@
+export const CONTACT_API_URL = "https://bcipp-backend.herokuapp.com";

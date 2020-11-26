@@ -1,0 +1,65 @@
+.register.wrapper {
+    background-image: url("../../images/pexels-engin-akyurt.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.ui.block {
+    width: 30rem;
+    height: auto;
+    margin: auto;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+    padding: 3.5rem;
+}
+
+#reg-title {
+    font-size: 1.5rem;
+    font-family: 'Fira Sans';
+}
+
+#register-role {
+    margin-left: 1.2rem;
+    margin-top: 3.5rem;
+    padding: 0.7rem 1.2rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* register role select small */
+@media (max-width: 600px) {
+    .ui.block {
+        width: 20rem;
+    }  
+    #register-role {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.5rem;
+        margin-top: 2rem;
+        margin-left: 0.2rem;
+    }
+    #reg-title {
+        font-size: 1.2rem;
+    }
+}
+
+/* register role select large */
+@media (min-width: 900px) {
+    .ui.block {
+        width: 35rem;
+    }  
+    #register-role {
+        padding: 0.7rem 0.8rem;
+        font-size: 1rem;
+        margin-left: 3rem;
+    }
+    #reg-title {
+        font-size: 2rem;
+    }
+}
+
